@@ -869,6 +869,7 @@ bool wxTIFFHandler::SaveFile( wxImage *image, wxOutputStream& stream, bool verbo
         TIFFClose(tif);
         if (buf)
             _TIFFfree(buf);
+
         return false;
     }
 
