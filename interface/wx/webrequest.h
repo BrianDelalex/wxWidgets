@@ -903,7 +903,8 @@ public:
         @param dataTimeoutMs
             Maximum time in milliseconds allowed to send and to receive data.
 
-        @note On Linux those parameters can't be distinguish. They are added to form one value.
+        @note On Linux those parameters can't be distinguish. They are added to form one value used to set
+        the maximum time in seconds that you allow the entire transfer operation to take. The whole thing, from start to end.
 
         @remarks The default timeouts may vary depending on Implementation.
             For more details take a look at the natives function (@ref descriptions).
